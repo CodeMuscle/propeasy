@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  box-sizing: border-box;
+  /* width: 100%; */
+}
+
+@media screen and (min-width: 1280px) {
+  html {
+    max-width: 1440px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  html {
+    max-width: 1280px;
+  }
+}
+
+.hero_imgwrapper {
+  background: url("../assets/heroImage.png") no-repeat center fixed;
+  background-size: cover;
+  /* opacity: 0.6; */
+  /* filter: alpha(opacity=60); */
+}
