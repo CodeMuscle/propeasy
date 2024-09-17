@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="./css/output.css" />
+
+    <!-- Icons - FontAwesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -12,19 +16,31 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- Custom Fonts - DM Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
     <title>PropEasy - Property Management</title>
   </head>
-  <body className="mx-auto overflow-hidden">
-    <div class="wrapper">
+  <body className="overflow-hidden">
+    <div class="lg:max-w-[1440px] w-[90%] mx-auto">
       <!-- Navbar -->
       <nav class="py-6 flex flex-row items-center justify-between">
-        <img
-          src="./assets/logoipsum-250.png"
-          alt="logo"
-          width="141"
-          height="27"
-        />
-  
+        <div class="max-w-[10rem] max-h-[4rem]">
+          <a href="/">
+            <img
+              src="./assets/logoFinal.png"
+              alt="logo"
+              width="141"
+              height="27"
+            />
+          </a>
+        </div>
+
         <ul class="flex flex-row gap-8 items-center">
           <a
             class="font-normal leading-[22px] text-base text-textTertiary hover:text-textSecondary duration-150 transition-colors"
@@ -48,33 +64,38 @@
             >Testimonial</a
           >
         </ul>
-  
+
         <button class="bg-primary px-8 py-3 rounded-[16px] text-white">
           <a href="/contact"> Contact Us </a>
         </button>
       </nav>
-  
+
       <!-- Hero Section -->
       <div class="hero_imgwrapper min-h-[70vh] w-full rounded-[50px] p-20">
         <div class="flex flex-col items-start justify-start gap-6">
           <div class="lg:max-w-[30rem] flex flex-col gap-5">
-              <h1 class="mr-6 text-[48px] leading-[63px] font-normal text-[#110229] drop-shadow-xl">
-                India&apos;s biggest property database
-              </h1>
-              <p class="font-light text-[#585981] text-[22px] leading-[36px]">
-                Fresh properties • Verified contacts • Leads management system • Google Sheet integration
-              </p>
-              <div class="flex flex-row">
-                <button class="flex flex-row gap-3 items-center bg-primary px-8 py-3 rounded-full text-white">
-                  <a href="Wa.me/+919589134844"> Connect With Us </a>
-                  <img src="./assets/arrow-white.png" alt="arrow-white" />
-                </button>
-                <!-- <button class="bg-primary p-2 px-5 rounded-full text-white">
+            <h1
+              class="mr-6 text-[48px] leading-[63px] font-normal text-[#110229] drop-shadow-2xl"
+            >
+              India&apos;s biggest property database
+            </h1>
+            <p class="font-light text-[#585981] text-[22px] leading-[36px]">
+              Fresh properties • Verified contacts • Leads management system •
+              Google Sheet integration
+            </p>
+            <div class="flex flex-row">
+              <button
+                class="flex flex-row gap-3 items-center bg-primary px-8 py-3 rounded-full text-white"
+              >
+                <a href="Wa.me/+919589134844"> Connect With Us </a>
+                <img src="./assets/arrow-white.png" alt="arrow-white" />
+              </button>
+              <!-- <button class="bg-primary p-2 px-5 rounded-full text-white">
                   
                 </button> -->
-              </div>
+            </div>
           </div>
-        </div>      
+        </div>
       </div>
     </div>
     <script src="./js/main.js"></script>
