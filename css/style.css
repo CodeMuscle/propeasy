@@ -21,7 +21,7 @@ html {
 } */
 
 .hero_imgwrapper {
-  background: url("../assets/heroImage.png") no-repeat bottom fixed;
+  background: url("../assets/heroImage.png") no-repeat center;
   background-size: cover;
   /* opacity: 0.6; */
   /* filter: alpha(opacity=60); */
