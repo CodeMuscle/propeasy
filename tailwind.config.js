@@ -13,6 +13,7 @@ module.exports = {
           'textSecondary': '#100E2C',
           'textTertiary': '#4D4D4D',
           'urgent': '#F4455A',
+          'dark': '#110229',
         }   
     },
   },
