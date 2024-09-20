@@ -33,15 +33,18 @@ html {
   position: relative;
 }
 
-.logos:before, 
-.logos:after{
-  position: absolute;
-  top: 0;
-  width: 250px;
-  height: 100%;
-  content: "";
-  z-index: 2;
+@media screen and (min-width: 768px) {
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
 }
+
 .logos:before {
   left: 0;
   background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
@@ -81,5 +84,4 @@ html {
 .logos-slideReverse {
   display: inline-block;
   animation: 30s reverseslide infinite linear;
-  padding-left: 2.5rem;
 }
